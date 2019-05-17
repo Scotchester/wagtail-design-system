@@ -11,7 +11,7 @@ capital-framework with some minor modifications).
    [guide to running both Python 2 and 3](https://github.com/cfpb/development/blob/master/guides/installing-python.md).
    You will need to be running Python 3 to test this project out.
 1. Clone repo and go into its folder
-1. Create a new Python virtualenv and activate it
+1. Create a new Python virtualenv and activate it: `mkvirtualenv --python=python3 [virtualenv name]`
 1. `pip install -r requirements.txt`
 1. `./manage.py migrate`
 1. `./manage.py runserver`
