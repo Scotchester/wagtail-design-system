@@ -30,6 +30,9 @@
 
         {% block content %}{% endblock %}
 
+        {% load wagtailreview_tags %}
+        {% wagtailreview %}
+
         {# Global javascript #}
         <script type="text/javascript" src="{% static 'js/designsystem.js' %}"></script>
 

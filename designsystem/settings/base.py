@@ -51,7 +51,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
-    'wagtailcodeblock'
+    'wagtailcodeblock',
+    'wagtail_review',
 ]
 
 MIDDLEWARE = [
