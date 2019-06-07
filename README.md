@@ -16,3 +16,11 @@ capital-framework with some minor modifications).
 1. `./manage.py migrate`
 1. `./manage.py runserver`
 1. Visit http://localhost:8000/admin/ and login with `admin`/`admin`
+
+## Build front end
+
+Requires Node >=8.15.1.
+
+1. `yarn`
+1. `gulp build` compiles CSS, JS etc.
+1. 
