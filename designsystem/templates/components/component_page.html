@@ -1,5 +1,4 @@
 {% extends "base.html" %}
-{% load static %}
 
 {% block body_class %}template-homepage{% endblock %}
 
@@ -11,6 +10,9 @@
 <h2>{{page.title}}</h2>
 <p class="a-date">{{ page.status }}</p>
 <p>{{ page.overview }}</p>
+
+<h3>Variations</h3>
+{% include 'cf-buttons/src/jinja2/buttons.html' %}
 
 <h3>Usage</h3>
 {{ page.usage }}
